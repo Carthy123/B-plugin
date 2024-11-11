@@ -9,14 +9,14 @@
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
 
 // Placeholder credentials for API authentication
-define('API_USERNAME', 'BRA2204107276');
-define('API_PASSWORD', 'RFpU)JY7h%bkh*3vkbXGD5t!#gff9hhhCZMhRU6$C');
-define('API_AUTH_ENDPOINT', 'https://bbus.brassicagroup.com/BBusGateway/Authenticate'); // Authentication endpoint
-define('API_TRANSACTION_ENDPOINT', 'https://bbus.brassicagroup.com/BBusGateway/debitMoney'); // Transaction endpoint
-define('API_TSQ_ENDPOINT', 'https://bbus.brassicagroup.com/BBusGateway/transStatusQuery') ; 
+define('API_USERNAME', '@@@@@@@');
+define('API_PASSWORD', '@@@@@@@@@');
+define('API_AUTH_ENDPOINT', '@@@@@@@@@@@@@@@@@@@@@'); // Authentication endpoint
+define('API_TRANSACTION_ENDPOINT', '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'); // Transaction endpoint
+define('API_TSQ_ENDPOINT', '@@@@@@@@@@@@@@@@@@@@@@@@@@@@') ; 
 // Define log file paths
-define('REQUEST_LOG_FILE', 'C:\\xampp\\apache\\logs\\paymentrequest.txt');
-define('RESPONSE_LOG_FILE', 'C:\\xampp\\apache\\logs\\paymentresponse.txt');
+define('REQUEST_LOG_FILE', '@@@@@@@@@@@@@@@@@@@@@@');
+define('RESPONSE_LOG_FILE', '@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
 
 // Initialize the plugin
 add_action('init', 'my_custom_payment_init');
